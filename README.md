@@ -10,3 +10,7 @@ Startup script for installing a full, historic Bitcoin node on a Vultr.com VPS. 
 5. Restart the VPS
 6. Let startup script complete
 7. Test your nodes public availability at https://bitnodes.earn.com
+
+## TODO
+1. Automatically fetch the last y cordinate from https://api.blockchain.info/charts/blocks-size?format=json
+and convert if from MB to GB (to match vultr's vps deploy interface)
