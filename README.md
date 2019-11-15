@@ -14,3 +14,4 @@ Startup script for installing a full, historic Bitcoin node on a Vultr.com VPS. 
 ## TODO
 1. Automatically fetch the last y cordinate from https://api.blockchain.info/charts/blocks-size?format=json
 and convert if from MB to GB (to match vultr's vps deploy interface)
+2. Write the script
