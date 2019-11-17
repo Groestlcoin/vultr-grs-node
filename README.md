@@ -4,7 +4,7 @@ Startup script for installing a full, historic Bitcoin node on a Vultr.com VPS. 
 ## Quick Start
 
 1. Check current full BTC blockcahin size at https://www.blockchain.com/charts/blocks-size
-2. Spin up an Ubuntu 16.0 VPS at https://vultr.com
+2. Spin up an Debian 9 x64 (stretch) at https://vultr.com
 3. Ensure the disk story on the Ubuntu VPS accomodates the current blocksize
 4. Drop in the startup script
 5. Restart the VPS
