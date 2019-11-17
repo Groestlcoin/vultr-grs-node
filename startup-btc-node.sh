@@ -2,7 +2,7 @@
 
 # drop into a vultr.com Debian 9 VPS to install a Bitcoin full node 
 
-if [ -d  ~/.bitcoin ] ; then
+if [ -d  ~/.bitcoin ]; then
   echo Error: It looks like a node is already installed on this server
   exit 1
 fi
